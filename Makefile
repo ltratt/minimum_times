@@ -3,6 +3,8 @@ PYTHON?=python2.7
 
 all: binary_linear_searches.svg binary_search.svg hashmap.svg linear_search.svg
 
+times: binary_search_times hashmap_times linear_search_times
+
 clean:
 	rm -f *.svg *.pdf
 
